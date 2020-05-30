@@ -10,12 +10,14 @@ require('./heroicons.js');
 import routes from './route.config';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import Vuex from 'vuex';
 
 import "ant-design-vue/dist/antd.css";
 import Antd from "ant-design-vue";
 
 Vue.use(Antd);
 Vue.use(VueRouter);
+Vue.use(Vuex);
 
 const router = new VueRouter({
     mode: 'history',
